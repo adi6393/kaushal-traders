@@ -1,4 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+/* Default styling for desktop */
+body {
+    font-size: 18px;
+    padding: 20px;
+  }
+  
+  /* Mobile-specific styling */
+  @media (max-width: 768px) {
+    body {
+      font-size: 16px;
+      padding: 10px;
+    }
+  }
+  
 /* General Reset */
 * {
     margin: 0;
@@ -25,6 +39,25 @@
     font-style: italic;
     animation: fadeIn 2s ease-in-out;
 }
+/* Default styling for desktop */
+body {
+    font-size: 18px;
+    padding: 20px;
+  }
+  
+  /* Mobile-specific styling */
+  @media (max-width: 768px) {
+    body {
+      font-size: 16px;
+      padding: 10px;
+    }
+  }
+/* Welcome Container Styling */
+.container {
+    width: 90%; /* Use a percentage for flexible resizing */
+    padding: 5vw; /* Use viewport width for padding */
+  }
+  
 
 /* Welcome Container Styling */
 .container {
